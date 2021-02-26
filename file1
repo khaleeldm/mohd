@@ -1,0 +1,8 @@
+start = 1 # Start of your range 
+end = 10 # End of your range 
+num_list = range(start, end + 1) # List of all numbers in given range 
+final_sum = sum(num_list) 
+print "Final Sum =", final_sum 
+ 
+#Combining all of it together in a single line 
+print "Final Sum =", sum(range(start, end + 1)) 
